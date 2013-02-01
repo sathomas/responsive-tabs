@@ -82,7 +82,7 @@ As the example shows, it is a good idea to add `fade in` classes to the actual t
 Finally, invoke the plug-in once the document is ready.
 
 	$(document).ready(function() {
-	    $(".tabbable.responsive").responsive-tabs(); 
+	    $(".tabbable.responsive").resptabs(); 
 	});
 
 ### Plug-in options
@@ -94,14 +94,14 @@ The plug-in has a few options that can be set globally or per-invocation. The su
 
 To set options on a case-by-case basis, just include an object as the parameter to the plug-in call.
 
-	$(".tabbable.responsive").responsive-tabs({
+	$(".tabbable.responsive").resptabs({
 	    maxSmallWidth: 479,
 	    slideTime: 300
 	});
 
 You can also set a single option
 
-	$(".tabbable.responsive").responsive-tabs("option", "maxSmallWidth", 479);
+	$(".tabbable.responsive").resptabs("option", "maxSmallWidth", 479);
 
 ##4. Credits
 
