@@ -49,7 +49,7 @@
 
 		"use strict";
 
-		var pluginName = 'responsive-tabs';
+		var pluginName = 'resptabs';
 
 		// The plug-in itself is implemented as an object. Here's the
 		// constructor function
