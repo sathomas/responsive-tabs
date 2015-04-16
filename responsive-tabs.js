@@ -176,7 +176,7 @@
 						// Ignoring the other resizes effectively serves as a
 						// debouncer.
 
-						var newWidth = $('body').width();
+						var newWidth = window.innerWidth;
 						if ( (windowSize > options.maxSmallWidth) && 
 								 (newWidth <= options.maxSmallWidth) )  {
 
